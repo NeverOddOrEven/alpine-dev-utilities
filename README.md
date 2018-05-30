@@ -9,9 +9,4 @@ Alpine 3.7 with various utilities
 - cf cli
 
 ## Building
-docker \
-  build \
-  --build-arg HTTPS_PROXY --build-arg https_proxy \
-  --build-arg  HTTP_PROXY --build-arg http_proxy \
-  --build-arg    NO_PROXY --build-arg no_proxy \
-  -t "neveroddoreven/alpine-dev-utilities:latest" .
+docker build -t "neveroddoreven/alpine-dev-utilities:latest" .
